@@ -1,0 +1,44 @@
+/* src/components/Sports.css */
+
+.sports {
+    padding: 20px;
+}
+
+.sports h2 {
+    margin-bottom: 0;
+    color: white;
+}
+
+.sports-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sports-section {
+    width: 100%;
+}
+
+.sports-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sports-item {
+    width: calc(16.66% - 20px); /* Adjust width to fit 6 items per row, accounting for gap */
+    text-align: center;
+}
+
+.sports-poster {
+    width: 100%;
+    border-radius: 8px;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.sports-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}

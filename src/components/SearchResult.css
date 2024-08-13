@@ -1,0 +1,40 @@
+/* src/components/SearchResult.css */
+
+.search-results {
+    padding: 20px;
+}
+
+.search-results h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: calc(100% / 6 - 20px); /* 6 cards per row, accounting for gaps */
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 300px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.card h4 {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}

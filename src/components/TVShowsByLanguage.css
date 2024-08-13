@@ -1,0 +1,41 @@
+/* src/components/TVShowsByLanguage.css */
+
+.tvshows-container {
+    padding: 20px;
+  }
+  
+  .tvshows-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .tvshow-card {
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tvshow-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tvshow-card h2 {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .tvshow-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tvshows-container h1 {
+    color: white;
+  }
+  

@@ -1,0 +1,35 @@
+/* src/components/Movies.css */
+
+.movies {
+    padding: 20px;
+  }
+  
+  .movies h2 {
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .movie-item {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    border-radius: 8px;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  .movie-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
